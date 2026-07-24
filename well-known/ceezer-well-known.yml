@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+host: https://ceezer.earth
+note: >-
+  Probed the /.well-known/ discovery surface plus the app host. No documents
+  are published (all 404). Recorded as honest negative evidence so re-runs are
+  idempotent. No WellKnown / SecurityTxt pointer emitted because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  host: https://ceezer.earth
+  status: 404
+- path: /.well-known/openid-configuration
+  host: https://ceezer.earth
+  status: 404
+- path: /.well-known/security.txt
+  host: https://app.ceezer.earth
+  status: 404

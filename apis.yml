@@ -1,24 +1,74 @@
 aid: ceezer
 name: CEEZER
-description: 'CEEZER is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: marketplace; climate-energy. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CEEZER (CEEZER Software GmbH) is a Berlin-based climate-tech enterprise platform for the
+  procurement and portfolio management of carbon credits, Energy Attribute Certificates (EACs), and
+  Sustainable Aviation Fuel Certificates (SAFc). The platform gives corporate sustainability teams
+  access to a marketplace of more than 10,000 global carbon projects with transparent pricing and
+  volume data, a proprietary risk-assessment engine ("Prism") that evaluates hundreds of validated
+  data points per project, and audit-ready reporting for net-zero and decarbonization commitments.
+  CEEZER combines expert climate advisory with enterprise-grade technology to help buyers plan,
+  procure, and manage climate performance assets. Surfaced as a portfolio company of HV Capital and
+  added to the API Evangelist network; the company operates a customer-facing web application but does
+  not publish a public developer API or documentation at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/ceezer/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68700cd2f94f90aad3ac1965/68700cd2f94f90aad3ac1a06_Logo_circle_256.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: CEEZER Software GmbH
+x-headquarters: 'Rosenstr. 16, 10178 Berlin, Germany'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Marketplace; Climate Energy
+- Marketplace
+- Climate
+- Carbon Credits
+- Sustainability
+- Carbon Markets
+- Net Zero
+- Energy Attribute Certificates
+- ESG
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ceezer-domain-security.yml
+- type: Website
+  url: https://ceezer.earth
+- type: Blog
+  url: https://ceezer.earth/insights
+- type: Support
+  url: https://ceezer.earth/contact-sales
+- type: Login
+  url: https://app.ceezer.earth/sign-in/
+- type: PrivacyPolicy
+  url: https://ceezer.earth/privacy-policy
+- type: Imprint
+  url: https://ceezer.earth/imprint
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ceezer/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
