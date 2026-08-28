@@ -11,6 +11,17 @@ description: 'CEEZER (CEEZER Software GmbH) is a Berlin-based climate-tech enter
   added to the API Evangelist network; the company operates a customer-facing web application but does
   not publish a public developer API or documentation at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/ceezer/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
